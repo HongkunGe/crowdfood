@@ -1,0 +1,23 @@
+{
+	"name": "crowdfood",
+	"version": "0.0.1",
+	"description": "crowdfood a HackNC app",
+  	"scripts": {
+ 	   "start": "node app.js",
+	    "dev": "./node_modules/.bin/nodemon server.js"
+	 },
+	"main": "app.js",
+	"dependencies": {
+	    "express": "4.12.x",
+	    "cfenv": "1.0.x",
+	    "mongoose": "4.0.6",
+	    "body-parser": "~1.0.1"
+	},
+	"repository": {},
+	"devDependencies": {
+	  "nodemon": "~1.7.1"
+	},
+	"engines": {
+		"node": "0.12.x"
+	} 
+}
